@@ -25,7 +25,7 @@ This Terraform configuration sets up a basic infrastructure on AWS, including an
 
 1. *Clone the Repository:*
    ```bash
-   git clone <https://github.com/Iyad87/tech-assignment.git>
+   git clone https://github.com/Iyad87/tech-assignment.git
    cd tech-assignment
 ### Initialize Terraform:
 1. change dir to root folder
