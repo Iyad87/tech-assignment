@@ -12,6 +12,9 @@ env:
 jobs:
   apply:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./root
 
     steps:
     - name: Checkout code
@@ -21,9 +24,6 @@ jobs:
       uses: hashicorp/setup-terraform@v1
       with:
         terraform_version: 1.7.1
-
-    - name: Change directory 
-      run: cd root
     - name: Terraform Init
       run: terraform init
 
