@@ -25,8 +25,8 @@ This Terraform configuration sets up a basic infrastructure on AWS, including an
 
 1. *Clone the Repository:*
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone <https://github.com/Iyad87/tech-assignment.git>
+   cd tech-assignment
 ### Initialize Terraform:
 1. change dir to root folder
 ```bash
@@ -51,6 +51,7 @@ terraform destroy
 Type yes when prompted to confirm.
 Customization
 Domain Name:
+Sub_Domain:
 Update the domain_name in main.tf to your desired domain.
 Region and Availability Zones:
 Adjust the region and azs variables in main.tf based on your preferred AWS region and availability zones.
