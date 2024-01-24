@@ -22,6 +22,8 @@ jobs:
       with:
         terraform_version: 1.7.1
 
+    - name: Change directory 
+      run: cd root
     - name: Terraform Init
       run: terraform init
 
