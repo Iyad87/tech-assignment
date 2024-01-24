@@ -20,7 +20,8 @@ This Terraform configuration sets up a basic infrastructure on AWS, including an
 
 2. *AWS Credentials:*
    Configure your AWS credentials using the AWS CLI or by setting the AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY environment variables.
-
+3. *Setting Up Terraform Backend with S3*
+   in the root directory there is a bash script to create s3 bucket and DynamoDb to  store the terraform state remoetly 
 ### Execution Steps
 
 1. *Clone the Repository:*
